@@ -1,7 +1,0 @@
-Configuring http-reverse-proxy-0.6.0...
-Preprocessing library for http-reverse-proxy-0.6.0..
-Building library for http-reverse-proxy-0.6.0..
-[1 of 2] Compiling Network.HTTP.ReverseProxy ( Network/HTTP/ReverseProxy.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Network/HTTP/ReverseProxy.o )
-[2 of 2] Compiling Paths_http_reverse_proxy ( .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/autogen/Paths_http_reverse_proxy.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Paths_http_reverse_proxy.o )
-Installing library in /home/aki/.stack/snapshots/x86_64-linux/lts-12.25/8.4.4/lib/x86_64-linux-ghc-8.4.4/http-reverse-proxy-0.6.0-Isoubmbwyhu72bAMEWnCKW
-Registering library for http-reverse-proxy-0.6.0..
