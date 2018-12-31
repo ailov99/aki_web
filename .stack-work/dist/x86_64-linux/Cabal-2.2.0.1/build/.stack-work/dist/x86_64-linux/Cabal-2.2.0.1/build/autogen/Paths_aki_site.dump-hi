@@ -1,0 +1,70 @@
+
+==================== FINAL INTERFACE ====================
+2018-12-30 14:31:59.486778619 UTC
+
+interface aki-site-0.0.0-IqnkwkQfDIK1qq1t0MZV1w:Paths_aki_site 8044
+  interface hash: 4ddd8f1cc936d63d3ffe09f6ed1d62d0
+  ABI hash: ace618fd378bc6d68b5d5f62adc7f26d
+  export-list hash: c39936043a45b06bb2330126ae60b581
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 3bc060519fbd42abe16f6e38fc8fa0db
+  opt_hash: 45d5e266c9ab751696f96731a7429711
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Paths_aki_site.getBinDir
+  Paths_aki_site.getDataDir
+  Paths_aki_site.getDataFileName
+  Paths_aki_site.getDynLibDir
+  Paths_aki_site.getLibDir
+  Paths_aki_site.getLibexecDir
+  Paths_aki_site.getSysconfDir
+  Paths_aki_site.version
+module dependencies:
+package dependencies: base-4.11.1.0* ghc-prim-0.5.2.0
+                      integer-gmp-1.0.2.0
+orphans: base-4.11.1.0:GHC.Float base-4.11.1.0:GHC.Base
+family instance modules: base-4.11.1.0:Control.Applicative
+                         base-4.11.1.0:Data.Functor.Const
+                         base-4.11.1.0:Data.Functor.Identity base-4.11.1.0:Data.Monoid
+                         base-4.11.1.0:Data.Semigroup.Internal base-4.11.1.0:Data.Version
+                         base-4.11.1.0:GHC.Generics base-4.11.1.0:GHC.IO.Exception
+import  -/  base-4.11.1.0:Control.Exception 3d8e6cda20877f889f07bc7c0f5cac36
+import  -/  base-4.11.1.0:Data.Version 26b96b3dd83a23703e0b8110475fc04a
+import  -/  base-4.11.1.0:GHC.Base 604111500e81281298777e721c75643b
+import  -/  base-4.11.1.0:GHC.IO 1d5542cc02075c5e948018bfacea89c1
+import  -/  base-4.11.1.0:GHC.IO.Exception acc060dca2e46d8b8275d06ee7d5d60d
+import  -/  base-4.11.1.0:Prelude 0750c25585e2b797cd78291d423d39dd
+import  -/  base-4.11.1.0:System.Environment 06420d98d10ee04b8dda9c0d88032c55
+import  -/  ghc-prim-0.5.2.0:GHC.Types d9b3023de7feae4a5308d643da5543f7
+addDependentFile "/home/aki/.stack/programs/x86_64-linux/ghc-8.4.4/lib/ghc-8.4.4/include/ghcversion.h" dc95dadad7fc31af17d70482a2bf3d6d
+addDependentFile ".stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/autogen/cabal_macros.h" d841e3454ce764cdb093ee3616947f2e
+addDependentFile "/usr/include/stdc-predef.h" 64086a4476ea583071277345b423d741
+eaf3cb1e438c4f8e8bec14864c9db7a1
+  $trModule :: GHC.Types.Module
+9763d60c1985d99ada4db56ff2d545ce
+  getBinDir :: GHC.Types.IO GHC.IO.FilePath
+613e09476245924aa6de33c4dd3866c8
+  getDataDir :: GHC.Types.IO GHC.IO.FilePath
+3776adeaeb42a2c7ec8d8860dcd65129
+  getDataFileName :: GHC.IO.FilePath -> GHC.Types.IO GHC.IO.FilePath
+c75d2915e7859b797d97af158e2a9e66
+  getDynLibDir :: GHC.Types.IO GHC.IO.FilePath
+7d05c7f2482663b6dbd2fa982c2cd56e
+  getLibDir :: GHC.Types.IO GHC.IO.FilePath
+14fa0e1adddebe715b9fe3608668d6f3
+  getLibexecDir :: GHC.Types.IO GHC.IO.FilePath
+d6bd6634baac0d05e5a28b391ead39f9
+  getSysconfDir :: GHC.Types.IO GHC.IO.FilePath
+513c6d392b85af683665ea1aaf93c58b
+  version :: Data.Version.Version
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

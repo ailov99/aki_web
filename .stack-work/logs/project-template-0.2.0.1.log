@@ -1,0 +1,6 @@
+Configuring project-template-0.2.0.1...
+Preprocessing library for project-template-0.2.0.1..
+Building library for project-template-0.2.0.1..
+[1 of 1] Compiling Text.ProjectTemplate ( Text/ProjectTemplate.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Text/ProjectTemplate.o )
+Installing library in /home/aki/.stack/snapshots/x86_64-linux/lts-12.25/8.4.4/lib/x86_64-linux-ghc-8.4.4/project-template-0.2.0.1-opljXM6VyC5e6XIi4Ra1E
+Registering library for project-template-0.2.0.1..

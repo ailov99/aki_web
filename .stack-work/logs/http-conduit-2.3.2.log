@@ -1,0 +1,8 @@
+Configuring http-conduit-2.3.2...
+Preprocessing library for http-conduit-2.3.2..
+Building library for http-conduit-2.3.2..
+[1 of 3] Compiling Network.HTTP.Client.Conduit ( Network/HTTP/Client/Conduit.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Network/HTTP/Client/Conduit.o )
+[2 of 3] Compiling Network.HTTP.Conduit ( Network/HTTP/Conduit.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Network/HTTP/Conduit.o )
+[3 of 3] Compiling Network.HTTP.Simple ( Network/HTTP/Simple.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Network/HTTP/Simple.o )
+Installing library in /home/aki/.stack/snapshots/x86_64-linux/lts-12.25/8.4.4/lib/x86_64-linux-ghc-8.4.4/http-conduit-2.3.2-6EyE8EbTMU6HEs69SUO6cd
+Registering library for http-conduit-2.3.2..

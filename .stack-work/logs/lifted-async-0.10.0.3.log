@@ -1,0 +1,7 @@
+Configuring lifted-async-0.10.0.3...
+Preprocessing library for lifted-async-0.10.0.3..
+Building library for lifted-async-0.10.0.3..
+[1 of 2] Compiling Control.Concurrent.Async.Lifted ( src/Control/Concurrent/Async/Lifted.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Control/Concurrent/Async/Lifted.o )
+[2 of 2] Compiling Control.Concurrent.Async.Lifted.Safe ( src/Control/Concurrent/Async/Lifted/Safe.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Control/Concurrent/Async/Lifted/Safe.o )
+Installing library in /home/aki/.stack/snapshots/x86_64-linux/lts-12.25/8.4.4/lib/x86_64-linux-ghc-8.4.4/lifted-async-0.10.0.3-KmiHqq2T3uICjzQKzd16YT
+Registering library for lifted-async-0.10.0.3..

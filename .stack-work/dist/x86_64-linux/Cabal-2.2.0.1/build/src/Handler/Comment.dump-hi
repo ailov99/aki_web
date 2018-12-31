@@ -1,0 +1,254 @@
+
+==================== FINAL INTERFACE ====================
+2018-12-30 14:31:58.097024879 UTC
+
+interface aki-site-0.0.0-IqnkwkQfDIK1qq1t0MZV1w:Handler.Comment 8044
+  interface hash: 2a1b0be01c108047688d51647fcdf434
+  ABI hash: a3885e3e92cbca22167c64271f426cf0
+  export-list hash: 19b5113d272b41e247ec9992a3bde80d
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: edd8707afadf02e4522b4d520a2fc5c9
+  opt_hash: 45d5e266c9ab751696f96731a7429711
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Handler.Comment.postCommentR
+module dependencies: Foundation Import Import.NoFoundation Model
+                     Settings Settings.StaticFiles
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      aeson-1.3.1.1 aeson-compat-0.3.9 ansi-terminal-0.8.2 appar-0.1.7
+                      array-0.5.2.0 asn1-encoding-0.9.5 asn1-parse-0.9.4 asn1-types-0.3.2
+                      async-2.2.1 attoparsec-0.13.2.2 attoparsec-iso8601-1.0.1.0
+                      authenticate-1.3.4 auto-update-0.1.4 base-4.11.1.0
+                      base-compat-0.10.5 base-orphans-0.7 base64-bytestring-1.0.0.2
+                      basement-0.0.8 basic-prelude-0.7.0 bifunctors-5.5.3 binary-0.8.5.1
+                      blaze-builder-0.4.1.0 blaze-html-0.9.1.1 blaze-markup-0.8.2.2
+                      bsb-http-chunked-0.0.0.4 byteable-0.1.1 byteorder-1.0.4
+                      bytestring-0.10.8.2 case-insensitive-1.2.0.11 cereal-0.5.7.0
+                      chunked-data-0.3.1 cipher-aes-0.2.11 classy-prelude-1.4.0
+                      classy-prelude-conduit-1.4.0 classy-prelude-yesod-1.4.0
+                      clientsession-0.9.1.2 colour-2.3.4 comonad-5.0.4 conduit-1.3.1
+                      conduit-extra-1.3.0 connection-0.2.8 containers-0.5.11.0
+                      contravariant-1.4.1 cookie-0.4.4 cprng-aes-0.6.1 crypto-api-0.13.3
+                      crypto-cipher-types-0.0.9 crypto-random-0.0.9 cryptonite-0.25
+                      cryptonite-conduit-0.2.2 css-text-0.1.3.0 data-default-0.7.1.1
+                      data-default-class-0.1.2.0 data-default-instances-containers-0.0.1
+                      data-default-instances-dlist-0.0.1
+                      data-default-instances-old-locale-0.0.1 deepseq-1.4.3.0
+                      directory-1.3.1.5 distributive-0.5.3 dlist-0.8.0.5
+                      dlist-instances-0.1.1.1 easy-file-0.2.2 email-validate-2.3.2.9
+                      entropy-0.4.1.4 exceptions-0.10.0 fast-logger-2.4.11
+                      file-embed-0.0.10.1 filepath-1.4.2 free-5.0.2 ghc-boot-th-8.4.4
+                      ghc-prim-0.5.2.0 hashable-1.2.7.0 haskell-src-exts-1.20.3
+                      haskell-src-meta-0.8.0.3 hjsmin-0.2.0.2 hourglass-0.2.12
+                      http-api-data-0.3.8.1 http-client-0.5.14 http-client-tls-0.3.5.3
+                      http-conduit-2.3.2 http-date-0.0.8 http-types-0.12.2 http2-1.6.4
+                      integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2 iproute-1.7.7
+                      kan-extensions-5.2 keys-3.12.1 language-javascript-0.6.0.11
+                      lifted-base-0.2.3.12 memory-0.14.18 microlens-0.4.9.1
+                      microlens-th-0.4.2.3 mime-types-0.1.0.8 monad-control-1.0.2.3
+                      monad-logger-0.3.30 monad-loops-0.4.3 mono-traversable-1.0.10.0
+                      mono-traversable-instances-0.1.0.0 mtl-2.2.2
+                      mutable-containers-0.3.4 network-2.6.3.6 network-byte-order-0.0.0.0
+                      network-uri-2.6.1.0 old-locale-1.0.0.7 old-time-1.1.0.3
+                      parsec-3.1.13.0 path-pieces-0.2.1 pem-0.2.4 persistent-2.8.2
+                      persistent-sqlite-2.8.2 persistent-template-2.5.4 pointed-5.0.1
+                      pretty-1.1.3.6 primitive-0.6.3.0 process-1.6.3.0 profunctors-5.2.2
+                      psqueues-0.2.7.0 random-1.1 resource-pool-0.2.3.2 resourcet-1.2.2
+                      say-0.1.0.1 scientific-0.3.6.2 securemem-0.1.10 semigroupoids-5.2.2
+                      shakespeare-2.0.20 silently-1.2.5 simple-sendfile-0.2.27
+                      skein-1.0.9.4 socks-0.5.6 split-0.2.3.3 stm-2.4.5.1
+                      stm-chans-3.0.0.4 streaming-commons-0.2.1.0 tagged-0.8.5
+                      tagsoup-0.14.7 tagstream-conduit-0.5.5.3 template-haskell-2.13.0.0
+                      text-1.2.3.1 th-abstraction-0.2.10.0 time-1.8.0.2
+                      time-locale-compat-0.1.1.5 tls-1.4.1 transformers-0.5.5.0
+                      transformers-base-0.4.5.2 transformers-compat-0.6.2 unix-2.7.2.2
+                      unix-compat-0.5.1 unix-time-0.3.8 unliftio-0.2.9.0
+                      unliftio-core-0.1.2.0 unordered-containers-0.2.9.0
+                      utf8-string-1.0.1.1 uuid-types-1.0.3 vault-0.3.1.2 vector-0.12.0.2
+                      vector-algorithms-0.7.0.4 vector-instances-3.4 wai-3.2.1.2
+                      wai-app-static-3.1.6.2 wai-extra-3.0.24.3 wai-logger-2.3.2
+                      warp-3.2.25 word8-0.1.3 x509-1.7.5 x509-store-1.6.7
+                      x509-system-1.6.6 x509-validation-1.6.11 xml-conduit-1.8.0.1
+                      xml-types-0.3.6 xss-sanitize-0.3.6 yaml-0.8.32 yesod-1.6.0
+                      yesod-auth-1.6.5 yesod-core-1.6.9 yesod-form-1.6.3
+                      yesod-newsfeed-1.6.1.0 yesod-persistent-1.6.0.1
+                      yesod-static-1.6.0.1 zlib-0.6.2
+orphans: mono-traversable-instances-0.1.0.0:Data.MonoTraversable.Instances
+         vector-instances-3.4:Data.Vector.Instances
+         data-default-instances-containers-0.0.1:Data.Default.Instances.Containers
+         data-default-instances-dlist-0.0.1:Data.Default.Instances.DList
+         data-default-instances-old-locale-0.0.1:Data.Default.Instances.OldLocale
+         yesod-auth-1.6.5:Yesod.Auth
+         http-client-0.5.14:Network.HTTP.Client.Request
+         persistent-template-2.5.4:Database.Persist.TH
+         aeson-compat-0.3.9:Data.Aeson.Compat
+         haskell-src-exts-1.20.3:Language.Haskell.Exts.Parser
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistQuery
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistUnique
+         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistStore
+         colour-2.3.4:Data.Colour crypto-api-0.13.3:Crypto.Classes
+         basement-0.0.8:Basement.UArray.Base basement-0.0.8:Basement.Block
+         network-2.6.3.6:Network.Socket
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.2:Data.Vector.Unboxed
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.5.0:Control.Monad.Trans.Error
+         hashable-1.2.7.0:Data.Hashable.Generic
+         stm-2.4.5.1:Control.Monad.STM time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         text-1.2.3.1:Data.Text.Lazy text-1.2.3.1:Data.Text
+         text-1.2.3.1:Data.Text.Show unix-time-0.3.8:Data.UnixTime.Diff
+         binary-0.8.5.1:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder base-4.11.1.0:GHC.Float
+         base-4.11.1.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.3.1.1:Data.Aeson.Types.Internal
+                         aki-site-0.0.0-IqnkwkQfDIK1qq1t0MZV1w:Foundation
+                         aki-site-0.0.0-IqnkwkQfDIK1qq1t0MZV1w:Model
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.11.1.0:Control.Applicative base-4.11.1.0:Data.Complex
+                         base-4.11.1.0:Data.Functor.Compose base-4.11.1.0:Data.Functor.Const
+                         base-4.11.1.0:Data.Functor.Identity
+                         base-4.11.1.0:Data.Functor.Product base-4.11.1.0:Data.Functor.Sum
+                         base-4.11.1.0:Data.Monoid base-4.11.1.0:Data.Semigroup
+                         base-4.11.1.0:Data.Semigroup.Internal base-4.11.1.0:Data.Version
+                         base-4.11.1.0:Data.Void base-4.11.1.0:GHC.Exts
+                         base-4.11.1.0:GHC.Generics base-4.11.1.0:GHC.IO.Exception
+                         basement-0.0.8:Basement.Block.Base basement-0.0.8:Basement.Monad
+                         basement-0.0.8:Basement.MutableBuilder basement-0.0.8:Basement.Nat
+                         basement-0.0.8:Basement.NonEmpty
+                         basement-0.0.8:Basement.Numerical.Subtractive
+                         basement-0.0.8:Basement.PrimType basement-0.0.8:Basement.String
+                         basement-0.0.8:Basement.String.Encoding.ASCII7
+                         basement-0.0.8:Basement.String.Encoding.ISO_8859_1
+                         basement-0.0.8:Basement.String.Encoding.UTF16
+                         basement-0.0.8:Basement.String.Encoding.UTF32
+                         basement-0.0.8:Basement.Types.OffsetSize
+                         basement-0.0.8:Basement.UArray.Base
+                         basement-0.0.8:Basement.UTF8.Base
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped
+                         conduit-1.3.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1:Data.Conduit.Internal.Pipe
+                         containers-0.5.11.0:Data.Graph
+                         containers-0.5.11.0:Data.IntMap.Internal
+                         containers-0.5.11.0:Data.IntSet.Internal
+                         containers-0.5.11.0:Data.Map.Internal
+                         containers-0.5.11.0:Data.Sequence.Internal
+                         containers-0.5.11.0:Data.Set.Internal containers-0.5.11.0:Data.Tree
+                         cryptonite-0.25:Crypto.ECC cryptonite-0.25:Crypto.Error.Types
+                         cryptonite-0.25:Crypto.Hash.Blake2
+                         cryptonite-0.25:Crypto.Hash.Blake2b
+                         cryptonite-0.25:Crypto.Hash.Blake2bp
+                         cryptonite-0.25:Crypto.Hash.Blake2s
+                         cryptonite-0.25:Crypto.Hash.Blake2sp
+                         cryptonite-0.25:Crypto.Hash.Keccak cryptonite-0.25:Crypto.Hash.MD2
+                         cryptonite-0.25:Crypto.Hash.MD4 cryptonite-0.25:Crypto.Hash.MD5
+                         cryptonite-0.25:Crypto.Hash.RIPEMD160
+                         cryptonite-0.25:Crypto.Hash.SHA1 cryptonite-0.25:Crypto.Hash.SHA224
+                         cryptonite-0.25:Crypto.Hash.SHA256 cryptonite-0.25:Crypto.Hash.SHA3
+                         cryptonite-0.25:Crypto.Hash.SHA384
+                         cryptonite-0.25:Crypto.Hash.SHA512
+                         cryptonite-0.25:Crypto.Hash.SHA512t
+                         cryptonite-0.25:Crypto.Hash.SHAKE
+                         cryptonite-0.25:Crypto.Hash.Skein256
+                         cryptonite-0.25:Crypto.Hash.Skein512
+                         cryptonite-0.25:Crypto.Hash.Tiger
+                         cryptonite-0.25:Crypto.Hash.Whirlpool dlist-0.8.0.5:Data.DList
+                         email-validate-2.3.2.9:Text.Email.Parser
+                         free-5.0.2:Control.Comonad.Cofree free-5.0.2:Control.Monad.Free
+                         free-5.0.2:Control.Monad.Trans.Free
+                         ghc-boot-th-8.4.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.4.4:GHC.LanguageExtensions.Type
+                         haskell-src-exts-1.20.3:Language.Haskell.Exts.SrcLoc
+                         haskell-src-exts-1.20.3:Language.Haskell.Exts.Syntax
+                         http-client-0.5.14:Network.HTTP.Client iproute-1.7.7:Data.IP.Addr
+                         iproute-1.7.7:Data.IP.Range kan-extensions-5.2:Data.Functor.Day
+                         keys-3.12.1:Data.Key microlens-0.4.9.1:Lens.Micro.Internal
+                         monad-control-1.0.2.3:Control.Monad.Trans.Control
+                         monad-logger-0.3.30:Control.Monad.Logger
+                         mono-traversable-1.0.10.0:Data.Containers
+                         mono-traversable-1.0.10.0:Data.MonoTraversable
+                         mono-traversable-1.0.10.0:Data.NonNull
+                         mono-traversable-1.0.10.0:Data.Sequences
+                         mono-traversable-instances-0.1.0.0:Data.MonoTraversable.Instances
+                         mutable-containers-0.3.4:Data.Mutable.BRef
+                         mutable-containers-0.3.4:Data.Mutable.Class
+                         mutable-containers-0.3.4:Data.Mutable.DLList
+                         mutable-containers-0.3.4:Data.Mutable.Deque
+                         mutable-containers-0.3.4:Data.Mutable.PRef
+                         mutable-containers-0.3.4:Data.Mutable.SRef
+                         mutable-containers-0.3.4:Data.Mutable.URef
+                         network-uri-2.6.1.0:Network.URI
+                         persistent-2.8.2:Database.Persist.Class.PersistConfig
+                         persistent-2.8.2:Database.Persist.Class.PersistEntity
+                         persistent-2.8.2:Database.Persist.Sql.Orphan.PersistStore
+                         persistent-2.8.2:Database.Persist.Sql.Types.Internal
+                         persistent-sqlite-2.8.2:Database.Persist.Sqlite
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.3.0:Control.Monad.Primitive
+                         primitive-0.6.3.0:Data.Primitive.Array
+                         primitive-0.6.3.0:Data.Primitive.ByteArray
+                         profunctors-5.2.2:Data.Profunctor.Composition
+                         profunctors-5.2.2:Data.Profunctor.Rep
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         shakespeare-2.0.20:Text.Internal.Css
+                         shakespeare-2.0.20:Text.Shakespeare tagged-0.8.5:Data.Tagged
+                         template-haskell-2.13.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.10.0:Language.Haskell.TH.Datatype
+                         unliftio-0.2.9.0:UnliftIO.Internals.Async
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+                         vector-instances-3.4:Data.Vector.Instances
+                         xml-types-0.3.6:Data.XML.Types yesod-auth-1.6.5:Yesod.Auth
+                         yesod-auth-1.6.5:Yesod.Auth.Routes
+                         yesod-core-1.6.9:Yesod.Core.Class.Handler
+                         yesod-core-1.6.9:Yesod.Core.Internal.LiteApp
+                         yesod-core-1.6.9:Yesod.Core.Types yesod-static-1.6.0.1:Yesod.Static
+                         zlib-0.6.2:Codec.Compression.Zlib.Stream
+import  -/  aeson-1.3.1.1:Data.Aeson.Types.Internal ff37bb69aabcef0e2533c616029bb79c
+import  -/  Foundation 234c92b0b66de7cbba20b57d88357314
+  Handler 46f2a851e9f233a355e44f656c7e2bd9
+import  -/  Import e49fbd8435d2b701601c2a5933444a55
+  exports: 808ae051a76972ee2c780289d28cd909
+import  -/  Model 8d9035d7cba4fa947ec5781a40015ea5
+  Comment a0df645d02caa20bc6cdb4961477d0c3
+  commentUserId a0df645d02caa20bc6cdb4961477d0c3
+import  -/  base-4.11.1.0:Prelude 0750c25585e2b797cd78291d423d39dd
+import  -/  persistent-2.8.2:Database.Persist.Class.PersistStore ba79edb3e1162edcf4bed5ade923ac3e
+import  -/  yesod-auth-1.6.5:Yesod.Auth 18936c8e99e7159a1091e97de33a60f9
+import  -/  yesod-core-1.6.9:Yesod.Core.Json efde7ee963888384dd8587406b76b0ab
+import  -/  yesod-persistent-1.6.0.1:Yesod.Persist.Core e4f8260c74dcc50d3f58e2bc11a495ca
+ef476a0d5520e23de4d7c02ce2865024
+  $trModule :: GHC.Types.Module
+af440aae79efd28b468d224be19df9dd
+  postCommentR :: Foundation.Handler Data.Aeson.Types.Internal.Value
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

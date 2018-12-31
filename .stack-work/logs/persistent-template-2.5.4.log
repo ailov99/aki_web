@@ -1,0 +1,6 @@
+Configuring persistent-template-2.5.4...
+Preprocessing library for persistent-template-2.5.4..
+Building library for persistent-template-2.5.4..
+[1 of 1] Compiling Database.Persist.TH ( Database/Persist/TH.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Database/Persist/TH.o )
+Installing library in /home/aki/.stack/snapshots/x86_64-linux/lts-12.25/8.4.4/lib/x86_64-linux-ghc-8.4.4/persistent-template-2.5.4-CSpdcVlsLC5G1GNRvXDfjd
+Registering library for persistent-template-2.5.4..

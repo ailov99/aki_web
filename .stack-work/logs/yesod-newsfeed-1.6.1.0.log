@@ -1,0 +1,9 @@
+Configuring yesod-newsfeed-1.6.1.0...
+Preprocessing library for yesod-newsfeed-1.6.1.0..
+Building library for yesod-newsfeed-1.6.1.0..
+[1 of 4] Compiling Yesod.FeedTypes  ( Yesod/FeedTypes.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Yesod/FeedTypes.o )
+[2 of 4] Compiling Yesod.AtomFeed   ( Yesod/AtomFeed.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Yesod/AtomFeed.o )
+[3 of 4] Compiling Yesod.RssFeed    ( Yesod/RssFeed.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Yesod/RssFeed.o )
+[4 of 4] Compiling Yesod.Feed       ( Yesod/Feed.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Yesod/Feed.o )
+Installing library in /home/aki/.stack/snapshots/x86_64-linux/lts-12.25/8.4.4/lib/x86_64-linux-ghc-8.4.4/yesod-newsfeed-1.6.1.0-JJlkSlmtL08CmjYelK7Ow8
+Registering library for yesod-newsfeed-1.6.1.0..

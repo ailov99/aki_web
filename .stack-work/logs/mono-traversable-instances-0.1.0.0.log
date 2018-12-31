@@ -1,0 +1,6 @@
+Configuring mono-traversable-instances-0.1.0.0...
+Preprocessing library for mono-traversable-instances-0.1.0.0..
+Building library for mono-traversable-instances-0.1.0.0..
+[1 of 1] Compiling Data.MonoTraversable.Instances ( src/Data/MonoTraversable/Instances.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Data/MonoTraversable/Instances.o )
+Installing library in /home/aki/.stack/snapshots/x86_64-linux/lts-12.25/8.4.4/lib/x86_64-linux-ghc-8.4.4/mono-traversable-instances-0.1.0.0-LbYZi216GhhHcIGCa2xczY
+Registering library for mono-traversable-instances-0.1.0.0..
